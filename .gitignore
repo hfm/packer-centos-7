@@ -1,0 +1,31 @@
+### https://raw.github.com/github/gitignore/170b9f808b34c9df63cbefb50c6b3517270755ec/Global/vagrant.gitignore
+
+.vagrant/
+
+
+### https://raw.github.com/github/gitignore/170b9f808b34c9df63cbefb50c6b3517270755ec/packer.gitignore
+
+# Cache objects
+packer_cache/
+
+# For built boxes
+*.box
+
+
+### https://raw.github.com/github/gitignore/170b9f808b34c9df63cbefb50c6b3517270755ec/Global/osx.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
