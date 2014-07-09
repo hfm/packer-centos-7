@@ -6,7 +6,7 @@ yum -y clean all
 
 # Remove Virtualbox specific files
 rm -rf /usr/src/vboxguest* /usr/src/virtualbox-ose-guest*
-rm -rf *.iso *.iso.? /tmp/vbox /home/vagrant/.vbox_version
+# rm -rf *.iso *.iso.? /tmp/vbox /home/vagrant/.vbox_version
 
 # Cleanup log files
 find /var/log -type f | while read f; do echo -ne '' > $f; done;
