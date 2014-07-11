@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Remove Linux headers
-yum -y remove kernel-devel kernel-headers
+yum -y remove gcc kernel-devel kernel-headers
 yum -y clean all
 
 # Remove Virtualbox specific files
