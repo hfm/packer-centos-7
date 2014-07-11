@@ -19,6 +19,8 @@
       "boot_command": [
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter>"
       ],
+      "guest_additions_url": "https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_4.3.13-94832.iso",
+      "guest_additions_sha256": "7a00c05b85787fa2837b85dfb00ffe674b902810a53fcdb9a32e1526befb7d4f",
       "shutdown_command": "echo 'vagrant' | sudo -S /sbin/halt -h -p"
     }
   ],
