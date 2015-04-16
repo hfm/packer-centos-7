@@ -2,7 +2,8 @@ packer-centos-7
 ===
 
 ```
-vagrant up hfm4/centos7
+vagrant init hfm4/centos7
+vagrant up
 ```
 
 ### Box url
